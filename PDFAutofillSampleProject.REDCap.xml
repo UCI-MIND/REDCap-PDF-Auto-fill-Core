@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="PDF Auto-fill Sample Project" AsOfDateTime="2022-01-28T16:10:54" CreationDateTime="2022-01-28T16:10:54" SourceSystem="REDCap" SourceSystemVersion="12.2.0">
+<Study OID="Project.PDFAutofillSampleProject">
+<GlobalVariables>
+	<StudyName>PDF Auto-fill Sample Project</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "PDF Auto-fill Sample Project".</StudyDescription>
+	<ProtocolName>PDF Auto-fill Sample Project</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>0</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:Purpose>0</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes>Basic project to demonstrate functionality of the REDCap PDF Auto-fill Core
+
+// UCI MIND DMSC</redcap:ProjectNotes>
+	<redcap:SurveyQueueCustomText></redcap:SurveyQueueCustomText>
+	<redcap:SurveyQueueHide>0</redcap:SurveyQueueHide>
+	<redcap:DataMartProjectEnabled>0</redcap:DataMartProjectEnabled>
+	<redcap:DatamartAllowRepeatRevision>0</redcap:DatamartAllowRepeatRevision>
+	<redcap:DatamartAllowCreateRevision>0</redcap:DatamartAllowCreateRevision>
+	<redcap:DatamartCronEnabled>0</redcap:DatamartCronEnabled>
+	<redcap:HideFilledForms>1</redcap:HideFilledForms>
+	<redcap:FormActivationSurveyAutocontinue>0</redcap:FormActivationSurveyAutocontinue>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:MultilanguageSettingsGroup>
+		<redcap:MultilanguageSettings settings="YToxNDp7czo3OiJ2ZXJzaW9uIjtzOjY6IjEyLjIuMCI7czo1OiJsYW5ncyI7YTowOnt9czo5OiJwcm9qZWN0SWQiO3M6MzoiMjU2IjtzOjE1OiJkZXNpZ25hdGVkRmllbGQiO3M6MDoiIjtzOjU6ImRlYnVnIjtiOjA7czo3OiJyZWZMYW5nIjtzOjA6IiI7czoxMjoiZmFsbGJhY2tMYW5nIjtzOjA6IiI7czo4OiJkaXNhYmxlZCI7YjowO3M6MjU6ImhpZ2hsaWdodE1pc3NpbmdEYXRhZW50cnkiO2I6MDtzOjIyOiJoaWdobGlnaHRNaXNzaW5nU3VydmV5IjtiOjA7czoxMjoiYWxlcnRTb3VyY2VzIjthOjA6e31zOjE0OiJleGNsdWRlZEFsZXJ0cyI7YTowOnt9czoxNDoiZXhjbHVkZWRGaWVsZHMiO2E6MDp7fXM6MTY6ImV4Y2x1ZGVkU2V0dGluZ3MiO2E6MDp7fX0="/>
+	</redcap:MultilanguageSettingsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.PDFAutofillSampleProject_2022-01-28_1610" Name="PDF Auto-fill Sample Project" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.form_1" Name="Form 1" Repeating="No" redcap:FormName="form_1">
+		<ItemGroupRef ItemGroupOID="form_1.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.form_1_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="form_1.record_id" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+		<ItemRef ItemOID="text_var_1" Mandatory="No" redcap:Variable="text_var_1"/>
+		<ItemRef ItemOID="text_var_2" Mandatory="No" redcap:Variable="text_var_2"/>
+		<ItemRef ItemOID="radio_buttons_1" Mandatory="No" redcap:Variable="radio_buttons_1"/>
+		<ItemRef ItemOID="radio_buttons_2" Mandatory="No" redcap:Variable="radio_buttons_2"/>
+		<ItemRef ItemOID="checkboxes_1___1" Mandatory="No" redcap:Variable="checkboxes_1"/>
+		<ItemRef ItemOID="checkboxes_1___2" Mandatory="No" redcap:Variable="checkboxes_1"/>
+		<ItemRef ItemOID="checkboxes_2___1" Mandatory="No" redcap:Variable="checkboxes_2"/>
+		<ItemRef ItemOID="date" Mandatory="No" redcap:Variable="date"/>
+		<ItemRef ItemOID="dropdown_var" Mandatory="No" redcap:Variable="dropdown_var"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.form_1_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="form_1_complete" Mandatory="No" redcap:Variable="form_1_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="text_var_1" Name="text_var_1" DataType="text" Length="999" redcap:Variable="text_var_1" redcap:FieldType="text">
+		<Question><TranslatedText>Text Variable 1</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="text_var_2" Name="text_var_2" DataType="text" Length="999" redcap:Variable="text_var_2" redcap:FieldType="text">
+		<Question><TranslatedText>Text Variable 2</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="radio_buttons_1" Name="radio_buttons_1" DataType="text" Length="1" redcap:Variable="radio_buttons_1" redcap:FieldType="radio">
+		<Question><TranslatedText>Radio buttons 1</TranslatedText></Question>
+		<CodeListRef CodeListOID="radio_buttons_1.choices"/>
+	</ItemDef>
+	<ItemDef OID="radio_buttons_2" Name="radio_buttons_2" DataType="text" Length="1" redcap:Variable="radio_buttons_2" redcap:FieldType="radio">
+		<Question><TranslatedText>Radio buttons 2</TranslatedText></Question>
+		<CodeListRef CodeListOID="radio_buttons_2.choices"/>
+	</ItemDef>
+	<ItemDef OID="checkboxes_1___1" Name="checkboxes_1___1" DataType="boolean" Length="1" redcap:Variable="checkboxes_1" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Checkboxes</TranslatedText></Question>
+		<CodeListRef CodeListOID="checkboxes_1___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="checkboxes_1___2" Name="checkboxes_1___2" DataType="boolean" Length="1" redcap:Variable="checkboxes_1" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Checkboxes</TranslatedText></Question>
+		<CodeListRef CodeListOID="checkboxes_1___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="checkboxes_2___1" Name="checkboxes_2___1" DataType="boolean" Length="1" redcap:Variable="checkboxes_2" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Another checkbox:</TranslatedText></Question>
+		<CodeListRef CodeListOID="checkboxes_2___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="date" Name="date" DataType="datetime" Length="999" redcap:Variable="date" redcap:FieldType="text" redcap:TextValidationType="datetime_seconds_ymd">
+		<Question><TranslatedText>Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dropdown_var" Name="dropdown_var" DataType="text" Length="1" redcap:Variable="dropdown_var" redcap:FieldType="select">
+		<Question><TranslatedText>Dropdown variable</TranslatedText></Question>
+		<CodeListRef CodeListOID="dropdown_var.choices"/>
+	</ItemDef>
+	<ItemDef OID="form_1_complete" Name="form_1_complete" DataType="text" Length="1" redcap:Variable="form_1_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="form_1_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="radio_buttons_1.choices" Name="radio_buttons_1" DataType="text" redcap:Variable="radio_buttons_1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Option A</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Option B</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Option C</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Option D</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="radio_buttons_2.choices" Name="radio_buttons_2" DataType="text" redcap:Variable="radio_buttons_2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Option 1, the first choice</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Option 2, the second choice</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="checkboxes_1___1.choices" Name="checkboxes_1___1" DataType="boolean" redcap:Variable="checkboxes_1" redcap:CheckboxChoices="1, Check A | 2, Check B">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="checkboxes_1___2.choices" Name="checkboxes_1___2" DataType="boolean" redcap:Variable="checkboxes_1" redcap:CheckboxChoices="1, Check A | 2, Check B">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="checkboxes_2___1.choices" Name="checkboxes_2___1" DataType="boolean" redcap:Variable="checkboxes_2" redcap:CheckboxChoices="1, Box?">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dropdown_var.choices" Name="dropdown_var" DataType="text" redcap:Variable="dropdown_var">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>First dropdown choice</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Second dropdown choice</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Third dropdown choice</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="form_1_complete.choices" Name="form_1_complete" DataType="text" redcap:Variable="form_1_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+<ClinicalData StudyOID="Project.PDFAutofillSampleProject" MetaDataVersionOID="Metadata.PDFAutofillSampleProject_2022-01-28_1610">
+	<SubjectData SubjectKey="1" redcap:RecordIdField="record_id">
+			<FormData FormOID="Form.form_1" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="form_1.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="1"/>
+					<ItemData ItemOID="text_var_1" Value="Alright"/>
+					<ItemData ItemOID="text_var_2" Value="Second text variable"/>
+					<ItemData ItemOID="radio_buttons_1" Value="2"/>
+					<ItemData ItemOID="radio_buttons_2" Value="1"/>
+					<ItemData ItemOID="checkboxes_1___1" Value="1"/>
+					<ItemData ItemOID="checkboxes_1___2" Value="1"/>
+					<ItemData ItemOID="checkboxes_2___1" Value="1"/>
+					<ItemData ItemOID="date" Value="2021-12-06T12:32:00"/>
+					<ItemData ItemOID="dropdown_var" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="form_1.form_1_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="form_1_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="2" redcap:RecordIdField="record_id">
+			<FormData FormOID="Form.form_1" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="form_1.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="2"/>
+					<ItemData ItemOID="text_var_1" Value="Next record"/>
+					<ItemData ItemOID="text_var_2" Value="Dropdown will be empty"/>
+					<ItemData ItemOID="radio_buttons_1" Value="4"/>
+					<ItemData ItemOID="radio_buttons_2" Value="2"/>
+					<ItemData ItemOID="checkboxes_1___1" Value="1"/>
+					<ItemData ItemOID="checkboxes_1___2" Value="0"/>
+					<ItemData ItemOID="checkboxes_2___1" Value="0"/>
+					<ItemData ItemOID="date" Value="2021-12-13T14:09:00"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="form_1.form_1_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="form_1_complete" Value="1"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="3" redcap:RecordIdField="record_id">
+			<FormData FormOID="Form.form_1" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="form_1.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="3"/>
+					<ItemData ItemOID="text_var_1" Value="Third record"/>
+					<ItemData ItemOID="text_var_2" Value="Checkboxes are empty"/>
+					<ItemData ItemOID="radio_buttons_1" Value="3"/>
+					<ItemData ItemOID="radio_buttons_2" Value="2"/>
+					<ItemData ItemOID="checkboxes_1___1" Value="0"/>
+					<ItemData ItemOID="checkboxes_1___2" Value="0"/>
+					<ItemData ItemOID="checkboxes_2___1" Value="0"/>
+					<ItemData ItemOID="date" Value="2021-12-22T18:45:00"/>
+					<ItemData ItemOID="dropdown_var" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="form_1.form_1_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="form_1_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="4" redcap:RecordIdField="record_id">
+			<FormData FormOID="Form.form_1" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="form_1.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="4"/>
+					<ItemData ItemOID="text_var_1" Value="Everything except this field is empty"/>
+					<ItemData ItemOID="checkboxes_1___1" Value="0"/>
+					<ItemData ItemOID="checkboxes_1___2" Value="0"/>
+					<ItemData ItemOID="checkboxes_2___1" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="form_1.form_1_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="form_1_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+</ClinicalData>
+</ODM>
