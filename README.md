@@ -11,7 +11,7 @@ Please note the license terms in `LICENSE.txt` - this tool is not guaranteed to 
 # Before use
 
 * Ensure that your template PDF contains fillable form fields in the first place. One method to check this is to open your PDF in a modern web browser of your choice and see if you can click checkboxes, buttons, and/or enter text.
-  * Verify PDF field names using software such as Adobe Acrobat.
+  * Verify PDF field names using software such as Adobe Acrobat. PDF field names must *exactly* match how the fields appear in the REDCap API (for example, checkboxes are named like "`checkboxname___#`").
 * Edit `secrets.json` and add a valid API key and URL to your REDCap instance. Visit your project's "API" and "API Playground" pages for details.
 * When running this script, it is recommended to create a virtual environment to keep packages isolated on your system:
 ```
