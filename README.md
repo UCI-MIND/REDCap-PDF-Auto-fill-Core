@@ -72,3 +72,8 @@ Here, the script will search for a REDCap record with a value of '1' in the REDC
 https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf
 
 https://www.w3.org/TR/WCAG20-TECHS/pdf.html
+
+# Funding
+
+To support our work and ensure future opportunities for development, please acknowledge the software and funding.
+The project was funded by The University of California, Irvine's Institute for Memory Impairments and Neurological Disorders (UCI MIND) grant, P30AG066519.
